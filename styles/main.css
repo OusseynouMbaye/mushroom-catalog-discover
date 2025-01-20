@@ -1,2 +1,3 @@
-@import url("reset.css");
-@import url("headerSection.css"); /* Your additional styles here */
+@layer reset, base, layout, components;
+@import url("reset.css") layer(reset);
+@import url("headerSection.css") layer(base);

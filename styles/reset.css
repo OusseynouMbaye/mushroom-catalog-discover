@@ -32,7 +32,7 @@ dd {
 }
 
 body {
-  min-block-size: 100vh;
+  min-block-size: 100vh; /* similar min-height: 100vh; */
   line-height: 1.6;
 }
 
@@ -50,6 +50,8 @@ h2,
 h3,
 h4 {
   text-wrap: balance;
+
+  /* La propriété CSS `text-wrap: balance;` est utilisée pour équilibrer la répartition du texte sur plusieurs lignes. Cela signifie que le navigateur essaiera de répartir le texte de manière plus uniforme, afin d'éviter des lignes de texte trop longues ou trop courtes. */
 }
 
 p,
@@ -59,7 +61,7 @@ li {
 
 img,
 picture {
-  max-inline-size: 100%;
+  max-inline-size: 100%; /* similar max-width: ; */
   display: block;
 }
 
