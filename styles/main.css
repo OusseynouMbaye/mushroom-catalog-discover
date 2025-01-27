@@ -1,6 +1,7 @@
 @layer reset, base, layout, components;
 @import url("reset.css") layer(reset);
 @import url("headerSection.css") layer(base);
+@import url("utilities.css") layer(utilities);
 
 @layer base {
   :root {
